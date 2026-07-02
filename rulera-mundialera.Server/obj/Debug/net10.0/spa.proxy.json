@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:49531",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\treyp\\OneDrive\\Desktop\\Code_UwU\\Visual_Community\\rulera-mundialera\\rulera-mundialera.Server\\..\\rulera-mundialera.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
