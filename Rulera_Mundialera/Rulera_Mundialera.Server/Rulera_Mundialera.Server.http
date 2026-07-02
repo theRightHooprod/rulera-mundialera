@@ -1,0 +1,6 @@
+@Rulera_Mundialera.Server_HostAddress = http://localhost:5271
+
+GET {{Rulera_Mundialera.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

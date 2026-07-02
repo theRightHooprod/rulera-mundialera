@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="rulera_mundialera.client/rulera_mundialera.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Rulera_Mundialera.Server/Rulera_Mundialera.Server.csproj" />
+</Solution>
