@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rulera_Mundialera.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf4ba6fd8b82247a28187709c67116060bca279b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rulera_Mundialera.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rulera_Mundialera.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
