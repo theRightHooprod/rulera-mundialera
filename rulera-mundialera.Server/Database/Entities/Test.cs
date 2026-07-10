@@ -2,6 +2,7 @@
 {
     public class Test
     {
-        public int nombre {  get; set; }
+        public int Id { get; set; }
+        public int Nombre {  get; set; }
     }
 }

@@ -1,10 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using rulera_mundialera.Server.Database;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// builder.Services.AddOpenApi();
+
+builder.Services.AddDbContextPool<DatabaseContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("DatabaseContext")));
 
 var app = builder.Build();
 
