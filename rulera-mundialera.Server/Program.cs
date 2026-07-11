@@ -1,10 +1,20 @@
+using Microsoft.EntityFrameworkCore;
+using rulera_mundialera.Server.Database;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// builder.Services.AddOpenApi();
+
+
+builder.Services.AddDbContext<DatabaseContext>(options => options
+	.UseNpgsql(
+		builder.Configuration["DatabaseConnection"]
+	)
+);
 
 var app = builder.Build();
 
@@ -12,10 +22,10 @@ app.UseDefaultFiles();
 app.MapStaticAssets();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
+// if (app.Environment.IsDevelopment())
+// {
+//     app.MapOpenApi();
+// }
 
 app.UseHttpsRedirection();
 
