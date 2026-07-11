@@ -9,3 +9,9 @@ dotnet user-secrets set "DatabaseConnection" "Host=localhost;Port=5432;Database=
 ```
 
 Be sure that the key name is DatabaseConnection because thats how is in the source code.
+
+Do the following command to apply all migrations.
+
+```bash
+Update-Database
+```
