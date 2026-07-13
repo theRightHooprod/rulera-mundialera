@@ -64,7 +64,7 @@ Agregar dicho `usuario` y `contraseña` en la siguiente cadena de conexión:
 Host=localhost;Port=5432;Database=db_name;Username=usuario;Password=pass
 ```
 
-Antes de ejecutar los siguientes comandos asegurate de estar dentro de la carpeta `rulera-mundialera.Server/` o si estás en Visual Studio Comunity haz clic derecho sobre la solución `rulera-mundialera.Server` y selecciona **Definir como como solución principal** .
+Antes de ejecutar los siguientes comandos asegurate de estar dentro de la carpeta `rulera-mundialera.Server/` o si estás en **Visual Studio Comunity** haz clic derecho sobre la solución `rulera-mundialera.Server` y selecciona **Establecer como proyecto de incio** .
 
 Ejecutar lo siguiente en la linea de comandos en linux o si usas Visual Studio Comunity ve a la pestaña de `Herrameintas > Consola de NuGet` y en esa consola ejecuta el siguiente comando cambiando la cadena de conexión:
 
@@ -86,7 +86,7 @@ o el siguiente si estás ocupando linux.
 dotnet ef database update
 ```
 
-Inicia el proyecto con el botón de `Iniciar` en Visual Studio Comunity o con el comando en linux dentro de la carpeta `rulera-mundialera.Server`:
+Inicia el proyecto con el botón de `Iniciar` en Visual Studio Comunity o con el comando en **linux** dentro de la carpeta `rulera-mundialera.Server`:
 
 ```bash
 dotnet run
